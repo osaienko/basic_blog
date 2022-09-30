@@ -28,6 +28,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 # pagination
 gem 'will_paginate', '~> 3.3.0'
+# testing, included by default in the previous versions
+gem 'rexml', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
